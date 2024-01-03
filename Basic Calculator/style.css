@@ -1,0 +1,60 @@
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    text-align: center;
+    color: #555;
+}
+
+.Input {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.Input form {
+    display: flex;
+    flex-direction: column;
+}
+
+.Input input[type="text"],
+.Input input[type="button"] {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.Input input[type="button"] {
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.Input input[type="button"]:hover {
+    background-color: #45a049;
+}
+
+.Output {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Output p {
+    font-size: 18px;
+}
